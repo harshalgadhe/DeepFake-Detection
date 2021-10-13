@@ -8,6 +8,7 @@
   <li>Our dataset is lesser than the one originally used </li>
   <li>To solve the problem of dataset we use data augmentation techniques</li>
   <li>We biild our own prediction model so that one can do prediction for the video without having to understand the code, you just need to add the path</li>
+  <li>Well balanced dataset with each category having around 800 images</li>
 </ul>
 
 <h1>Setting up the model locally or on Colab</h1>
@@ -22,7 +23,7 @@ pip install -r /path to requirements.txt file.
 
 <h1>Model</h1>
 The proposed model used Meso-4 Architecure as in the research paper <a href='https://arxiv.org/pdf/1809.00888v1.pdf'>MesoNet: a Compact Facial Video Forgery Detection Network
-</a> and was used for prediction of Fake Videos. We build our own custom model for data preprocessing and prediction which can be found in the .ipynb file. Model trained with accuracy of over 65% on training data and almost 60% on testing data. The graphs for accuracy and loss is as follows : <br><br>
+</a> and was used for prediction of Fake Videos. We build our own custom model for data preprocessing and prediction which can be found in the .ipynb file. Model trained with accuracy of over 75% on training data and over 60% on testing data. Though the model show overfitting but it can be solved by adding more data. The graphs for accuracy and loss is as follows : <br><br>
 <img src='https://github.com/harshalgadhe/DeepFake-Detection/blob/main/images/accuracy.png'>
 <img src = 'https://github.com/harshalgadhe/DeepFake-Detection/blob/main/images/loss.png'><br>
 <h3>The results of the prediction model when tested on unseen data is as follows. As you can see the model was able to predict correctly.</h3><br>
