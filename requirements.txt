@@ -1,0 +1,10 @@
+mtcnn
+keras-video-generators
+opencv-python
+simplejson
+matplotlib
+tensorflow
+keras
+numpy
+pandas
+glob2
